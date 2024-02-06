@@ -1,4 +1,4 @@
 def call(){
-   sh 'mvn clean install -DskipTests=true'
+   sh 'mvn clean install -DskipTests'
 }
 
